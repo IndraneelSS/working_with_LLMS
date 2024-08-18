@@ -27,7 +27,7 @@ You can install the required packages using the provided `requirements.txt` file
 ```bash
 pip install -r requirements.txt
 
-## Conceptual Understanding
+**## Conceptual Understanding**
 
 ### `app.py`
 
