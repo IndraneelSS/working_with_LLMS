@@ -22,12 +22,7 @@ To run this project, you'll need to install the following Python packages:
 - `python-box`: For configuration management.
 - `streamlit`: For creating the interactive web application.
 
-You can install the required packages using the provided `requirements.txt` file:
-
-```bash
-pip install -r requirements.txt
-
-**## Conceptual Understanding**
+## Conceptual Understanding
 
 ### `app.py`
 
@@ -59,5 +54,12 @@ The `app.py` script sets up a Streamlit web application that interacts with the 
 - **`st.button("Generate")`**: A button that triggers the blog generation when clicked.
 
 - **`st.write(getLLamaresponse(...))`**: Displays the generated blog post on the web interface once the user clicks the "Generate" button.
+
+
+
+You can install the required packages using the provided `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
 
 
